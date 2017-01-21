@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.0.0
+ENV VERSION=0.1.3
 
 RUN gem install berktacular --version ${VERSION} --no-format-exec
 
